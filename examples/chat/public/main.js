@@ -12,9 +12,12 @@ $(function() {
   var $usernameInput = $('.usernameInput'); // Input for username
   var $messages = $('.messages'); // Messages area
   var $inputMessage = $('.inputMessage'); // Input message input box
+  var $sessionInput = $('.sessionInput') // Input for session ID
 
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('.chat.page'); // The chatroom page
+  var $joinRoomPage = $('.join-room .page'); // The Join room page
+  var $joinSessionPage = $('.join-session .page'); //The join session page
 
   // Prompt for setting a username
   var username;
